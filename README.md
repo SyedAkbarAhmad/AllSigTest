@@ -106,8 +106,15 @@ Apart from ANOVA, the package will also perform chi-squart test for categorical 
 
 Example:
 
-We can say with 95% confidence that transmission type is not idenpendent of the Origin. Non-USA countries produce highger number of cars with manual transmission. 
+We can say with 95% confidence that transmission type is not idenpendent of the Origin. Non-USA countries produce higher number of cars with manual transmission. 
 ![GitHub Logo](/images/Chi-sq_ManTrans.png)
+
+We can say with 95% confidence that car type is not idenpendent of the Origin. USA produces higher number of large cars and non-USA countries produce higher number of smaller cars. 
+![GitHub Logo](/images/Chi-sq_Type.png)
+
+We can NOT say with 95% confidence that airbag is not idenpendent of the Origin. 
+
+![GitHub Logo](/images/CHi-sq_Airba.png)
 
 
 

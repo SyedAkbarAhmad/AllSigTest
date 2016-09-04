@@ -22,10 +22,11 @@ For the purpose of demo I will use the Cars93 dataset from the MARS package. The
 
 First I will remove variables that won't contribute towards this analysis (Such as model name & manufacturer name):
 
+'''
 Cars93$Manufacturer <- NULL
 Cars93$Model  <- NULL
 Cars93$Make <- NULL
-
+'''
 Now, to run the package provide dataset name and the name of the variable we wish to the run the tests on:
 
 AllSigTest(Cars93,"Price")

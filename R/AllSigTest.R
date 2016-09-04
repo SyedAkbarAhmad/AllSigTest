@@ -73,7 +73,7 @@ AllSigTest <-  function(Data, Targetx) {
   print(text(x = 0.5, y = 0.5, paste("Bivariate Analysis of Variables"), 
              col = "black"))
   
-  #Data <- as.data.frame(Data[, !(colnames(Data) %in% c(Targetx))])
+
   Data[Targetx] <- NULL
   
   # numeric target: correlation & anova
@@ -89,7 +89,7 @@ AllSigTest <-  function(Data, Targetx) {
         
         cor1 = cor(Data[,i],Target[,1],use="complete") 
         
-        #print(paste("The correlation between", names(Data[i]), " and ", names(Target) ," is ",cor1))
+      
 
         print(plot(Data[,i],Target[,1],	xlab=names(Data[i]), ylab=names(Target),col="darkblue", main = paste("The correlation between", names(Data[i]), " and ", names(Target) ," is ",cor1)))
         print(abline(lm(Target[,1] ~ Data[,i])))
@@ -105,7 +105,7 @@ AllSigTest <-  function(Data, Targetx) {
         
         c <- b[[1]][[5]][[1]]
         
-        #print(paste("P value for anova between", names(Data[i]), " and ", names(Target) , " is ",c))
+        
         
         print(gplots::plotmeans(Target[,1] ~ Data[,i]  ,xlab=names(Data[i]),
                   ylab=names(Target), main=paste("P value for anova between", names(Data[i]), " and ", names(Target) , " is ",c)))

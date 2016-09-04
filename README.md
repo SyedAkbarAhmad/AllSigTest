@@ -69,7 +69,20 @@ A correlation plot is plotted for all the numeric variables:
 
 Depending on the data type of the target variables different tests are executed. In this example, the target variabls is Price which is a numeric variable. The analysis applicable are: ANOVA & correlation:
 
-Example for corre:
+Example for scatter plots:
+
+Price had a strong positive correlation with the weight of the vehicle. Heavier vehicles are priced higher.
+![GitHub Logo](/images/Cor_Wt.png)
+
+Price had a strong negative correlation with the MPG of the vehicle. Cars with better fuel ecomony are cheaper.
+![GitHub Logo](/images/Cor_Mpg.png)
+
+Price had a strong positive correlation with the HP of the vehicle. Cars with higher HP are more expensive.
+![GitHub Logo](/images/Cor_HP.png)
+
+
+
+
 
 
 

@@ -6,8 +6,9 @@ Uni-variate and Bi-variate analysis of data
 
 The package can be installed from github using devtools:
 
+```R
 devtools::install_github("SyedAkbarAhmad/AllSigTest")
-
+```
 ## Usage
 
 The purpose of this package is to automatically run and view:

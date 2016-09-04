@@ -93,13 +93,13 @@ Price had a strong positive correlation with the HP of the vehicle. Cars with hi
 
 Example for ANOVA:
 
-We can say with 95% confidence that airbags have an impact on the price. Cars with no airbags cost lesser. 
+We can reject the null hypothesis (with 95% confidence) that airbags have no impact on the price. Cars with no airbags cost lesser. 
 ![GitHub Logo](/images/ANova_Airbag.png)
 
-We can say with 95% confidence that transmission type has an impact on the price. Cars with no manual transmission cost lesser. 
+We can reject the null hypothesis (with 95% confidence) that transmission type has no impact on the price. Cars with no manual transmission cost lesser. 
 ![GitHub Logo](/images/Anova_Manrans.png)
 
-We can NOT say with 95% confidence that country of origin has any impact on the price. 
+We can NOT reject the null hypothesis (with 95% confidence) that country of origin has no impact on the price. 
 ![GitHub Logo](/images/ANova_Origin.png)
 
 
@@ -115,13 +115,13 @@ Apart from ANOVA, the package will also perform chi-square test for categorical 
 
 Example:
 
-We can say with 95% confidence that transmission type is not independent of the Origin. Non-USA countries produce higher number of cars with manual transmission. 
+We can reject the null hypothesis (with 95% confidence) that transmission type is independent of the Origin. Non-USA countries produce higher number of cars with manual transmission. 
 ![GitHub Logo](/images/Chi-sq_ManTrans.png)
 
-We can say with 95% confidence that car type is not independent of the Origin. USA produces higher number of large cars and non-USA countries produce higher number of smaller cars. 
+We can reject the null hypothesis (with 95% confidence) that car type is independent of the Origin. USA produces higher number of large cars and non-USA countries produce higher number of smaller cars. 
 ![GitHub Logo](/images/Chi-sq_Type.png)
 
-We can NOT say with 95% confidence that airbag is not independent of the Origin. 
+We can reject the null hypothesis (with 95% confidence) that airbag is independent of the Origin. 
 
 ![GitHub Logo](/images/CHi-sq_Airba.png)
 

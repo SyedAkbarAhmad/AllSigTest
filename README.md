@@ -18,6 +18,8 @@ The purpose of this package is to automatically run and view:
 
 ## Example
 
+### Numeric target
+
 For the purpose of demo I will use the Cars93 dataset from the MARS package. The Cars93 dataset describes data from 93 Cars on Sale in the USA in 1993. I am interested in finding the factors contributing towards the Price of a vehicle.
 
 ```R
@@ -91,6 +93,21 @@ We can say with 95% confidence that transmission type has an impact on the price
 We can NOT say with 95% confidence that country of origin has any impact on the price. 
 ![GitHub Logo](/images/ANova_Origin.png)
 
+
+### Categorical target
+
+We can run similar analysis on categorical target. In this example, I am running the analysis on Origin:
+
+```R
+AllSigTest(Cars93,"Origin")
+```
+
+Apart from ANOVA, the package will also perform chi-squart test for categorical variables:
+
+Example:
+
+We can say with 95% confidence that transmission type is not idenpendent of the Origin. Non-USA countries produce highger number of cars with manual transmission. 
+![GitHub Logo](/images/Chi-sq_ManTrans.png)
 
 
 

@@ -61,7 +61,7 @@ Example:
 
 A correlation plot is plotted for all the numeric variables:
 
-![GitHub Logo](/images/Cor_plot.pdf)
+![GitHub Logo](/images/Cor_plot.png)
 
 ### Bivariate Analysis
 

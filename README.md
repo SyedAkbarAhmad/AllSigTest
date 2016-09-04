@@ -37,9 +37,13 @@ Now, to run the package provide dataset name and the name of the variable we wis
 AllSigTest(Cars93,"Price")
 ```
 
+The output is divided into two sections:
+
+### Univariate Analysis
 
 
 
 
-![GitHub Logo](/images/pipeline_iraq_oil_2003.jpg)
+
+![GitHub Logo](/images/UniIntro.png)
 

@@ -26,6 +26,14 @@ For the purpose of demo I will use the Cars93 dataset from the MARS package. The
 ```R
 library(MARS)
 ```
+
+The dependent packages:
+
+```R
+library(corrplot)
+library(gplots)
+```
+
 First I will remove variables that won't contribute towards this analysis (Such as model name & manufacturer name):
 
 ``` R

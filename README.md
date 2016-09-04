@@ -80,6 +80,18 @@ Price had a strong negative correlation with the MPG of the vehicle. Cars with b
 Price had a strong positive correlation with the HP of the vehicle. Cars with higher HP are more expensive.
 ![GitHub Logo](/images/Cor_HP.png)
 
+Example for ANOVA:
+
+We can say with 95% confidence that airbags have an impact on the price. Cars with no airbags cost lesser. 
+![GitHub Logo](/images/ANova_Airbag.png)
+
+We can say with 95% confidence that transmission type has an impact on the price. Cars with no manual transmission cost lesser. 
+![GitHub Logo](/images/Anova_Manrans.png)
+
+We can NOT say with 95% confidence that country of origin has any impact on the price. 
+![GitHub Logo](/images/ANova_Origin.png)
+
+
 
 
 

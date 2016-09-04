@@ -20,6 +20,15 @@ The purpose of this package is to automatically run and view:
 
 For the purpose of demo I will use the Cars93 dataset from the MARS package. The Cars93 dataset describes data from 93 Cars on Sale in the USA in 1993. I am interested in finding the factors contributing towards the Price of a vehicle.
 
+First I will remove variables that won't contribute towards this analysis (Such as model name & manufacturer name):
+
+Cars93$Manufacturer <- NULL
+Cars93$Model  <- NULL
+Cars93$Make <- NULL
+
+Now, to run the package provide dataset name and the name of the variable we wish to the run the tests on:
+
+AllSigTest(Cars93,"Price")
 
 
 library(MARS)

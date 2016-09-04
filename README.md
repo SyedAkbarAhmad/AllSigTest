@@ -53,10 +53,23 @@ Example
 
 Bar Plots are plotted for all charatcter/factor variables:
 
-Example
+Example:
 
 ![GitHub Logo](/images/Bar_Cyl.png)
 
 ![GitHub Logo](/images/Bar_Type.png)
+
+A correlation plot is plotted for all the numeric variables:
+
+![GitHub Logo](/images/Cor_plot.pdf)
+
+### Bivariate Analysis
+
+![GitHub Logo](/images/BI_Intro.png)
+
+Depending on the data type of the target variables different tests are executed. In this example, the target variabls is Price which is a numeric variable. The analysis applicable are: ANOVA & correlation:
+
+Example for corre:
+
 
 

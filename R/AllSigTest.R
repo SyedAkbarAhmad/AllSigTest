@@ -47,6 +47,12 @@ AllSigTest <-  function(Data, Targetx) {
   
   Data.Cor.DF <- Data[,sapply(Data,is.numeric)] 
   
+  
+  numcol <- length(as.data.frame(Data.Cor.DF))
+  
+  if (numcol >1)
+  {
+  
   Data.Cor <-cor(Data.Cor.DF, use="complete")
   
    col <- colorRampPalette(c("#BB4444", "#EE9988", "#FFFFFF", "#77AADD", "#4477AA"))
@@ -60,16 +66,15 @@ AllSigTest <-  function(Data, Targetx) {
            diag=FALSE , main = "Correlation Plot"
   ))
   
-  
+  }
   # Dependent vs Independent analysis
   
   plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n')
   print(text(x = 0.5, y = 0.5, paste("Bivariate Analysis of Variables"), 
              col = "black"))
   
-  Data <- Data[, !(colnames(Data) %in% c(Targetx))]
-  
-  
+  #Data <- as.data.frame(Data[, !(colnames(Data) %in% c(Targetx))])
+  Data[Targetx] <- NULL
   
   # numeric target: correlation & anova
   
@@ -167,4 +172,3 @@ AllSigTest <-  function(Data, Targetx) {
   # End of chi sq test
 
 }
-

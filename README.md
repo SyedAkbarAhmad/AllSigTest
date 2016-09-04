@@ -41,9 +41,22 @@ The output is divided into two sections:
 
 ### Univariate Analysis
 
-
-
-
-
 ![GitHub Logo](/images/UniIntro.png)
+
+Histograms are plottted for all numerical variables:
+
+Example
+
+![GitHub Logo](/images/Mpg_Hist.png)
+
+![GitHub Logo](/images/HIst_HP.png)
+
+Bar Plots are plotted for all charatcter/factor variables:
+
+Example
+
+![GitHub Logo](/images/Bar_Cyl.png)
+
+![GitHub Logo](/images/Bar_Type.png)
+
 

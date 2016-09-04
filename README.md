@@ -121,7 +121,7 @@ We can reject the null hypothesis (with 95% confidence) that transmission type i
 We can reject the null hypothesis (with 95% confidence) that car type is independent of the Origin. USA produces higher number of large cars and non-USA countries produce higher number of smaller cars. 
 ![GitHub Logo](/images/Chi-sq_Type.png)
 
-We can reject the null hypothesis (with 95% confidence) that airbag is independent of the Origin. 
+We can not reject the null hypothesis (with 95% confidence) that airbag is independent of the Origin. 
 
 ![GitHub Logo](/images/CHi-sq_Airba.png)
 

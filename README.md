@@ -1,5 +1,30 @@
 # AllSigTest
 Uni-variate and Bi-variate analysis of data 
 
-![GitHub Logo](/pipeline_iraq_oil_2003.jpg)
+
+## Install
+
+The package can be installed from github using devtools:
+
+devtools::install_github("SyedAkbarAhmad/AllSigTest")
+
+## Usage
+
+The purpose of this package is to automatically run and view:
+
+1. Univariate distribution of all variables in a dataset (Histograms & Bar Plots).
+2. Tests of significance on the dataset for a particualr target variable.
+
+
+## Example
+
+For the purpose of demo I will use the Cars93 dataset from the MARS package. The Cars93 dataset describes data from 93 Cars on Sale in the USA in 1993. I am interested in finding the factors contributing towards the Price of a vehicle.
+
+
+
+library(MARS)
+
+
+
+![GitHub Logo](/images/pipeline_iraq_oil_2003.jpg)
 
